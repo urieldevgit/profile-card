@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+}
+p {
+  display: inline;
+}
+h3 {
+  display: inline;
+}
+
+.aboute-me {
+  margin-top: 70px;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.age-text {
+  font-size: 1.2rem;
+  padding-left: 8px;
+}
+
+.card-container {
+  width: 24rem;
+  height: 25.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: white;
+  border-radius: 5%;
+}
+
+.landscape-card {
+  height: 55%;
+  background-image: url('../images/bg-pattern-card.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 6%;
+  border-top-right-radius: 6%;
+}
+
+.left-div {
+  margin: 0;
+  position: relative;
+  float: left;
+  width: 50%;
+  /* background-color: lightblue; */
+  background-image: url('../images/bg-pattern-top.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  height: -webkit-fill-available;
+  transform: rotate(180deg);
+}
+
+.line-separator {
+  border: solid #E5E4E3 0.1rem;
+  border-bottom: none;
+}
+
+.info-card {
+  height: 75%;
+}
+
+.name-text {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.age-place {
+  color:  hsl(227, 10%, 46%);
+}
+
+.profile-pic {
+  margin: auto;
+  text-align: center;
+  margin-top: 115px;
+  margin-left: 140px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+}
+
+.right-div {
+  margin: 0;
+  position: relative;
+  float: right;
+  width: 50%;
+  /* background-color: green; */
+  background-image: url('../images/bg-pattern-top.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  height: -webkit-fill-available;
+  transform: rotate(180deg);
+}
+
+.stats-card {
+  text-align: center;
+  line-height: 1.3;
+  margin-top: 30px;
+}
+
+.stats-followers {
+  position: relative;
+  right: 80px;
+}
+
+.stats-likes {
+  position: relative;
+  right: 10px;
+}
+
+.stats-numbers {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.stats-photos {
+  position: relative;
+  left: 69px;
+}
+
+.stats-text {
+  font-size: .8rem;
+  color:  hsl(227, 10%, 46%);
+}
